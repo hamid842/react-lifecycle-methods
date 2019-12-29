@@ -5,7 +5,8 @@ export default class GetDerivedStateFromProps extends Component {
     super(props);
 
     this.state = {
-      favoriteColor: "red"
+      firstName: "Hamid",
+      lastName: "Mohamadi"
     };
   }
 
@@ -14,7 +15,8 @@ export default class GetDerivedStateFromProps extends Component {
 
   static getDerivedStateFromProps(props, state) {
     return {
-      favoriteColor: props.favColor
+      firstName: props.fName,
+      lastName: props.lName
     };
   }
 
@@ -22,7 +24,9 @@ export default class GetDerivedStateFromProps extends Component {
     return (
       <div>
         <h3>In GetDerivedState component :</h3>
-        <h3>My favorite color is {this.state.favoriteColor}</h3>
+        <h3>
+          My name is {this.state.firstName} -{this.state.lastName}
+        </h3>
       </div>
     );
   }

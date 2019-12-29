@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Constructor />
-      <GetDerivedStateFromProps favColor="yellow" />
+      <GetDerivedStateFromProps fName="Mehdi" lName="Jalali" />
     </div>
   );
 }
