@@ -23,7 +23,9 @@ export default class GetDerivedStateFromProps extends Component {
   render() {
     return (
       <div>
-        <h3>In GetDerivedState component :</h3>
+        <h3>
+          <mark> GetDerivedStateFromProps : </mark>
+        </h3>
         <h3>
           My name is {this.state.firstName} -{this.state.lastName}
         </h3>

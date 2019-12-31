@@ -19,7 +19,9 @@ export default class Constructor extends Component {
   render() {
     return (
       <div>
-        <h3>Constructor method : </h3>
+        <h3>
+          <mark>Constructor method :</mark>{" "}
+        </h3>
         <h3>My favorite color is {this.state.favoriteColor}</h3>
       </div>
     );
