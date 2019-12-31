@@ -17,7 +17,7 @@ export default class ComponentDidMount extends Component {
         <h3>
           <mark>componentDidMount</mark>
         </h3>
-        <h1>My Favorite Color is {this.state.favoriteColor}</h1>
+        <h3>My Favorite Color is {this.state.favoriteColor}</h3>
       </div>
     );
   }
