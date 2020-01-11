@@ -5,6 +5,7 @@ import GetDerivedStateFromProps from "./lifecycleMethods/mounting/GetDerivedStat
 import ComponentDidMount from "./lifecycleMethods/mounting/ComponentDidMount";
 import Render from "./lifecycleMethods/mounting/Render";
 import GetDerivedStateFromProps2 from "./lifecycleMethods/updating/GetDerivedStateFromProps2";
+import ComponentShouldUpdate from "./lifecycleMethods/updating/ComponentShouldUpdate";
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,8 @@ function App() {
       <hr></hr>
       <h1>=======UPDATING=======</h1>
       <GetDerivedStateFromProps2 favcol="yellow" />
+      <hr></hr>
+      <ComponentShouldUpdate />
       <hr></hr>
     </div>
   );
